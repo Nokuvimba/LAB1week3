@@ -18,4 +18,9 @@ public  class Week3 {
 
         return "Some other Message";
     }
+@GetMapping("/hello")
+    public String hello(){
+        return "hello";
+    }
+
 }
